@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Twitter, Instagram, Facebook, Coins } from 'lucide-react';
-import bgImage from 'figma:asset/53cfde835b9af513afc1c4e79ff2e4bf6d9cd3d3.png';
 
 export function Hero() {
   const socials = [
@@ -28,15 +27,8 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src={bgImage} 
-          alt="Background" 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-white/50" />
-      </div>
+      {/* Background removed */}
+      <div className="absolute inset-0 z-0 bg-white" />
 
       <div className="relative z-10 max-w-6xl mx-auto w-full px-6 py-32">
         <motion.div

@@ -1,8 +1,4 @@
 import { motion } from 'motion/react';
-import mayMuskImage from 'figma:asset/2691077d3ec69bf3ae75dd176cdc29c84b6d61ee.png';
-import sportsIllustratedImage1 from 'figma:asset/ca943d32c40188da4108dd66be28a470d9908f79.png';
-import sportsIllustratedImage2 from 'figma:asset/05021764305379109d9122df412bcd57f371a5ad.png';
-import mayMuskGreenImage from 'figma:asset/f5c49c4eabb1fe186d761c34efafc6cee6a1ad75.png';
 
 export function About() {
   const achievements = [
@@ -56,13 +52,7 @@ export function About() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           className="mb-32"
         >
-          <div className="relative w-full aspect-[16/9] overflow-hidden">
-            <img 
-              src={mayMuskImage} 
-              alt="May Musk" 
-              className="w-full h-full object-cover object-[center_20%]"
-            />
-          </div>
+          {/* Image removed */}
         </motion.div>
 
         <div className="space-y-1 mb-32">
@@ -115,14 +105,7 @@ export function About() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1">
-              <div className="relative w-full aspect-[3/4] overflow-hidden">
-                <img 
-                  src={mayMuskGreenImage} 
-                  alt="May Musk" 
-                  className="w-full h-[105%] object-cover object-top"
-                  style={{ transform: 'translateY(-2.5%)' }}
-                />
-              </div>
+              {/* Image removed */}
             </div>
             <div className="order-1 md:order-2">
               <h3 className="text-4xl md:text-5xl font-light mb-8">
@@ -135,9 +118,9 @@ export function About() {
                 millions to embrace life at any stage.
               </p>
               <div className="flex flex-wrap gap-6 text-lg text-gray-500">
-                <span>📚 New York Times Bestseller</span>
-                <span>🌍 34 Languages</span>
-                <span>✨ 100+ Countries</span>
+                <span> New York Times Bestseller</span>
+                <span> 34 Languages</span>
+                <span> 100+ Countries</span>
               </div>
             </div>
           </div>
