@@ -60,7 +60,7 @@ export function About() {
             <img 
               src={mayMuskImage} 
               alt="May Musk" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[center_20%]"
             />
           </div>
         </motion.div>
@@ -133,7 +133,8 @@ export function About() {
                 <img 
                   src={mayMuskGreenImage} 
                   alt="May Musk" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-[105%] object-cover object-top"
+                  style={{ transform: 'translateY(-2.5%)' }}
                 />
               </div>
             </div>
