@@ -98,25 +98,11 @@ export function About() {
           className="mb-32"
         >
           <div className="mb-12 text-center">
-            <p className="text-xl text-gray-500 font-light">
-              Sports Illustrated Swimsuit Edition at 70+
-            </p>
+            
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="relative w-full aspect-[3/4] overflow-hidden">
-              <img 
-                src={sportsIllustratedImage1} 
-                alt="May Musk for Sports Illustrated" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="relative w-full aspect-[3/4] overflow-hidden">
-              <img 
-                src={sportsIllustratedImage2} 
-                alt="May Musk for Sports Illustrated" 
-                className="w-full h-full object-cover"
-              />
-            </div>
+            
+            
           </div>
         </motion.div>
 
